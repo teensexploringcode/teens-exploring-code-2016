@@ -227,7 +227,7 @@ section {
 
 @media(min-width:768px) {
   #logo {
-    width: 25vh;
+    width: 33vh;
     left: 50%;
     position: relative;
     transform: translate(-50%);
