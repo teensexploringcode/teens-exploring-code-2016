@@ -225,10 +225,13 @@ section {
   font-size: 30pt;
 }
 
-.fa-facebook-square {
-  padding-top: 10px;
-  color: #fff;
-  font-size: 25px;
+@media(min-width:768px) {
+  #logo {
+    width: 25vh;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+  }
 }
 
 /* Team */
@@ -275,4 +278,10 @@ section {
 .footer {
   background-color: #222;
   color: #fff;
+}
+
+.fa-facebook-square {
+  padding-top: 10px;
+  color: #fff;
+  font-size: 25px;
 }
