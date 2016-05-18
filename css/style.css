@@ -126,7 +126,7 @@ section {
     background-color: transparent;
 }
 
-@media(min-width:768px) {
+@media(max-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: #222;
@@ -225,9 +225,9 @@ section {
   font-size: 30pt;
 }
 
-@media(min-width:768px) {
+@media(max-width:768px) {
   #logo {
-    width: 33vh;
+    width: 25vh;
     left: 50%;
     position: relative;
     transform: translate(-50%);
