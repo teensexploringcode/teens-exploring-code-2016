@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #7b1451;
+    color: #e9e460;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -56,15 +56,18 @@ p {
 .bg-primary {
     color: #fff;
     background-color: #7b1451;
+    font-weight: 600;
 }
 
 .bg-blue {
-  color: #fff;
+  color: #222;
+  font-weight: 600;
   background-color: #73aeef;
 }
 
 .bg-light {
     color: #222;
+    font-weight: 600;
     background-color: #fff;
 }
 
