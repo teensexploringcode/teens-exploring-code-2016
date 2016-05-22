@@ -20,7 +20,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #000;
+    color: #727272;
 }
 
 h1,
@@ -221,13 +221,16 @@ section {
   text-align: center;
 }
 
+.sponsor-logo {
+  display: inline-block;
+}
+
 .sponsor-logo img {
   height: 150px;
-  display: block;
-  margin: 0 auto;
-  clear: right;
-  margin-top: 20px;
-  margin-bottom: 20px
+  width: auto;
+  margin: 20px;
+  border: 0;
+  overflow: hidden;
 }
 
 /* Footer */
