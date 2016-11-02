@@ -232,6 +232,10 @@ section {
   border: 0;
 }
 
+.sponsor-logo-small img {
+  height: 75px!important;
+}
+
 /* Footer */
 
 .footer {
