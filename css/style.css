@@ -221,18 +221,18 @@ section {
   text-align: center;
 }
 
-.sponsor-logo {
+.logo {
   display: inline-block;
 }
 
-.sponsor-logo img {
+.logo img {
   height: 150px;
   width: auto;
   margin: 20px;
   border: 0;
 }
 
-.sponsor-logo-small img {
+.logo-small img {
   height: 75px!important;
 }
 
