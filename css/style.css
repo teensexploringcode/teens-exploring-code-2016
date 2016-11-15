@@ -181,6 +181,11 @@ section {
   font-size: 30pt;
 }
 
+.btn-primary {
+  border-color: #fff;
+  background-color: transparent;
+}
+
 @media(max-width:768px) {
   #title {
     font-size: 36pt!important;
@@ -188,7 +193,7 @@ section {
 
   #event-info {
     font-size: 20pt!important;
-  }s
+  }
 }
 
 /* Team */
