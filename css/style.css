@@ -264,12 +264,13 @@ section {
 
 .fa-envelope{
   padding-top: 10px;
-  color: #fff;
+  color: #fff !important;
   font-size: 25px;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
 }
+
 .fa-envelope:hover {
   padding-top: 10px;
   color: #7b1451;
