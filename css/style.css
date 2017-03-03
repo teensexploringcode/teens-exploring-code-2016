@@ -256,11 +256,7 @@ section {
   -moz-transition: all .35s;
   transition: all .35s;
 }
-.fa-facebook-square:hover {
-  padding-top: 10px;
-  color: #7b1451;
-/*  font-size: 25px;*/
-}
+
 
 .fa-envelope{
   padding-top: 10px;
@@ -271,8 +267,4 @@ section {
   transition: all .35s;
 }
 
-.fa-envelope:hover {
-  padding-top: 10px;
-  color: #7b1451;
-/*  font-size: 25px;*/
-}
+
