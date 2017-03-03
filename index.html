@@ -34,8 +34,8 @@
 		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300' rel='stylesheet' type='text/css'>
 	</head>
-	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
+	<body style = "overflow-x: hidden; overflow-y: hidden;">
+<!--<nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
@@ -56,21 +56,50 @@
 					</ul>
 				</div>
       </div>
-    </nav>
-		<section id="banner">
+    </nav> -->
+<style>
+    @media(max-width:768px) {
+    	.asdf {
+    		margin-right: 36%;
+   			margin-left: 36%;
+    	}
+    }
+        @media(max-width:500px) {
+    	.asdf {
+    		margin-right: 10% !important;
+    		margin-left: 10%  !important;
+    	}
+    }
+</style>
+		<section id="banner"><!--  style = "padding-top:11%" -->
 			<img src="static/img/logowhite.png" id="logo">
 			<div class="event-panel">
-				<h1 id="title">Teens Exploring Code</h1>
-				<h1 id="event-info">November 19th, 2016 | Mitchell Park Community Center</h1>
-				<br/>
-				<a href="https://tec2016.typeform.com/to/NvR0Xb" class="btn btn-primary btn-lg" target="_blank">Register!</a>
+
+				<h1>Teens Exploring Code</h1>
+<!-- 				<h1 id="event-info">Coming soon!</h1> -->
+					<div class = "asdf" style = "margin-right: 36%;
+   			margin-left: 36%;"><h3 class = "event-info" style="max-width: 400px;">Thanks to all our sponsors, mentors, and attendees for coming. Look forward to TEC 2017! </h3></div>
+
+					<div class = "row">
+<!-- 						<a href="https://tec2016.typeform.com/to/NvR0Xb" class="btn btn-primary btn-lg" target="_blank">Contact Us</a>
+						<a href="https://tec2016.typeform.com/to/NvR0Xb" class="btn btn-primary btn-lg" target="_blank">Get Updates</a>
+ -->
+					<!-- 	</br> -->
+						
+						<a href="https://www.facebook.com/teensexploringcode/" style = "margin-right: 20px"><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
+						<a href="mailto:teensexploringcode@gmail.com"><i class="fa fa-2x fa-envelope" aria-hidden="false"></i></a>
+					</div>
+			
+<!-- 				<a href="https://tec2016.typeform.com/to/NvR0Xb" class="btn btn-primary btn-lg" target="_blank">Register!</a> -->
 			</div>
 		</section>
+
+
 		<section class="bg-primary" id="about">
 			<div class="container">
-				<div class "about-info">
-					<h1>What is Teens Exploring Code?</h1>
-					<p>If you have quirky ideas you want to bring to life, or if you want to collaborate on something meaningful with other inquisitive teens like you, join us for Teens Exploring Code (TEC) 2016!</p>
+				<div class = "about-info">
+					<h1 style="padding-bottom: 20px">What is Teens Exploring Code?</h1>
+					<p>If you have quirky ideas you want to bring to life, or if you want to collaborate on something meaningful with other inquisitive teens like you, join us for Teens Exploring Code (TEC) 2017!</p>
 					<p>In 14 hours of continuous excitement, we'll show you how programming can be fun, thought-provoking and powerful. With two unique tracks and various workshops throughout the day, TEC provides a welcoming environment perfect for first-time coders and first-time hackathon attendees, along with those with more experience.</p>
 					<hr>
 					<p>Beginners should attend the two Python workshops (one in the morning and one in the afternoon) to get started with programming and work on projects. Non-beginners are encouraged to attend other fun workshops offered later in the day.</p>
